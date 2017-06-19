@@ -1,0 +1,24 @@
+<html>
+   <head>
+      <title>Weather App &bull; WeavedIn</title>
+      <!-- Link to Style sheet -->
+      <link rel="stylesheet" href="gs-suggestions.css">
+      <!-- Link to jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   </head>
+   <body style="background-color:#778899;">
+         <!-- The container for the search bar and suggestions-->
+         <div class="gs-search-box">
+            <!-- The search bar itself -->
+            <div class="gs-search-bar">
+               <input type="input" list="cities" name="search" class="gs-search-field" class="search-field-empty" placeholder="Search"/>
+               <img src="search.png" height="23" width="23" class="gs-search-button"/>
+            </div>
+            <!-- The conatiner for suggestions -->
+            <div class="gs-suggestion-box">
+            </div>
+         </div>
+   </body>
+   <!-- JavaScript that controls all the events for the gs-suggestions and search field -->
+   <script src="gs-suggestions.js"></script>
+</html>
